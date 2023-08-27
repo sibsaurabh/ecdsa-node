@@ -29,3 +29,8 @@ The server folder contains a node.js server using [express](https://expressjs.co
 The application should connect to the default server port (3042) automatically! 
 
 _Hint_ - Use [nodemon](https://www.npmjs.com/package/nodemon) instead of `node` to automatically restart the server on any changes.
+
+### Scripts
+
+1. generateKeyPairs  :- Generates cryptographic key pairs and corresponding address
+2. generateSignature :- Generates cryptographic signature using private key of the sender 
